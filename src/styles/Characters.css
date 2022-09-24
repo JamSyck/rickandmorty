@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'get_schwifty';
+    src: url(../components/font/get_schwifty.ttf);
+}
+.title{
+    text-align: center;
+    margin: 1rem 0;
+}
+.body-cards-characters{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}.card-character{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.btn-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.btn-page button{
+    margin: 0 2em;
+}

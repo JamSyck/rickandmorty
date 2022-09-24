@@ -23,6 +23,7 @@ function CharactersDetail() {
     <div>
       <NavbarApp/>
       <h1>{character.name}</h1>
+      <button onClick={()=>window.history.back(-1)} className="btn btn-success">Regresar</button>
     </div>
   )
 }

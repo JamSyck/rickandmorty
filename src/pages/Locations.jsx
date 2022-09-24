@@ -2,33 +2,39 @@ import React from 'react'
 import UseWorld from '../hooks/UseWorld';
 import {Link} from 'react-router-dom';
 import NavbarApp from '../components/NavbarApp/NavbarApp';
+import FooterApp from '../components/FooterApp/FooterApp';
 import ListGroup from 'react-bootstrap/ListGroup';
+import '../styles/Locations.css'
 
 function Locations() {
 
-  const{world}=UseWorld();
+  const{world,page,prev,next}=UseWorld();
 
   return (
     <div>
       <NavbarApp/>
-      <h1>LOCATIONS</h1>
+      <h1 className='title'>LOCATIONS</h1>
+      <h4>{page}</h4>
       <div className='body-list-locations'>
-      <button className="btn btn-dark">Anterior</button>
-      <div>
-      {world.map(data=>(
         <div>
+          <button onClick={prev} className="btn btn-dark">Anterior</button>
+        </div>
+        <div>
+        {world.map(data=>(
           <ListGroup>
-            <Link to={`/locations/${data.id}`}>
+            <Link className='list-link' to={`/locations/${data.id}`}>
               <ListGroup.Item action variant="light">
                 {data.name}
               </ListGroup.Item>
             </Link>
           </ListGroup>
+        ))}
         </div>
-      ))}
+        <div>
+          <button onClick={next} className="btn btn-dark">Siguiente</button>
+        </div>
       </div>
-      <button className="btn btn-dark">Siguiente</button>
-      </div>
+      <FooterApp/>
     </div>
   )
 }
