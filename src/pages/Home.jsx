@@ -38,7 +38,7 @@ function Home() {
         <p>Rick Sanchez is an example of the typical "mad scientist." He is a genius, but he is irresponsible, alcoholic, selfish, a bit depressed and with little sanity. Rick for different reasons ends up moving to his daughter Beth's house and at that moment he meets his grandson Morty; a 14-year-old boy, shy and not very smart. Joining his grandson, Rick and Morty experience a variety of adventures throughout the cosmos and parallel universes. And it is through so many experiences and reflections that Rick seeks that his grandson Morty does not end up like his father, Jerry, a very unsuccessful man who, despite having good intentions, turns out to be quite useless on many occasions and depends a lot on his wife, Beth, Rick's daughter.
         Despite being very close, Rick and his grandson experience times when Morty's sister, Summer, sometimes joins in on Rick's colorful escapades.</p>
       </div>
-      <br></br>
+      <br/>
       <h1>TRAILERS</h1>
       <br/>
       <div className="trailers">

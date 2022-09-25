@@ -26,9 +26,9 @@ function Characters() {
       ))}
       </div>
       <div className='btn-page'>
-        <button onClick={prev} className="btn btn-primary">Anterior</button>
+        <button onClick={prev} className="btn btn-primary">Prev</button>
         <h3>{page}</h3>
-        <button onClick={next} className="btn btn-primary">Siguiente</button>
+        <button onClick={next} className="btn btn-primary">Next</button>
       </div>
       <FooterApp/>
     </div>

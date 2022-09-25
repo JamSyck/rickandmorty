@@ -1,17 +1,13 @@
 .text{
     justify-items: center;
 }
-.text h1{
+.text h1,h1{
     font-family: 'get_schwifty';
     text-align: center;
 }
 .text p{
     text-align: justify;
     padding: 0 3em;
-}
-h1{
-    font-family: 'get_schwifty';
-    text-align: center;
 }
 .trailers{
     display: flex;
