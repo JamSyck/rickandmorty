@@ -42,9 +42,11 @@ function Home() {
       <h1>TRAILERS</h1>
       <br/>
       <div className="trailers">
-        <iframe width="426" height="240" src="https://www.youtube.com/embed/MkekGuqcbwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="426" height="240" src="https://www.youtube.com/embed/Tm7dFM_v57A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="426" height="240" src="https://www.youtube.com/embed/P9WZhGMlDBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className='videos' width="426" height="240" src="https://www.youtube.com/embed/MkekGuqcbwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br/>
+        <iframe className='videos' width="426" height="240" src="https://www.youtube.com/embed/Tm7dFM_v57A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br/>
+        <iframe className='videos' width="426" height="240" src="https://www.youtube.com/embed/P9WZhGMlDBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <br/>
       <FooterApp/>

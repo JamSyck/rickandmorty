@@ -8,3 +8,71 @@
     margin-right: 3rem;
     border: 2px solid black;
 }
+
+/*----------RESPONSIVE----------*/
+@media (max-width:600px) {
+    .detail-character{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .photo{
+        width: 300px;
+        margin: 0 0 1rem 0;
+    }
+}
+@media (max-width:550px) {
+    .detail-character{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .photo{
+        width: 300px;
+        margin: 0 0 1rem 0;
+    }
+}
+@media (max-width:500px) {
+    .detail-character{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .photo{
+        width: 300px;
+        margin: 0 0 1rem 0;
+    }
+}
+@media (max-width:450px) {
+    .detail-character{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .photo{
+        width: 250px;
+        margin: 0 0 1rem 0;
+    }
+}
+@media (max-width:400px) {
+    .detail-character{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .photo{
+        width: 250px;
+        margin: 0 0 1rem 0;
+    }
+}
+@media (max-width:350px) {
+    .detail-character{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .photo{
+        width: 220px;
+        margin: 0 0 1rem 0;
+    }
+}

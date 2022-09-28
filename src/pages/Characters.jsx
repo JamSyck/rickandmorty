@@ -16,7 +16,7 @@ function Characters() {
       <h1 className='title'>CHARACTERS</h1>
       <div className='body-cards-characters'>
       {person.map(data=>(
-        <Card className='card-character' style={{ width: '18rem' }}>
+        <Card className='card-character' style={{ width: '15rem' }}>
           <Card.Img variant="top" src={data.image}/>
           <Card.Body>
             <Card.Title>{data.name}</Card.Title>

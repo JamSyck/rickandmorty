@@ -12,3 +12,22 @@
 .list-link{
     text-decoration: none;
 }
+#navpage{
+    display: none;
+}
+
+/*----------RESPONSIVE----------*/
+@media (max-width:650px) {
+    #navpage{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+    #navpage button{
+        margin: 0 1rem;
+    }
+    #page, #bpage{
+        display: none;
+    }
+}

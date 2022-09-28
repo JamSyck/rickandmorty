@@ -18,7 +18,7 @@ function Episodes() {
       <h1 className='title'>EPISODES</h1>
       <div className='body-list-chapters'>
         {chapter.map(data=>(
-          <Card style={{ width: '18rem' }}>
+          <Card className='card-chapter' style={{ width: '15rem' }}>
             <Card.Img variant="top" src={cover}/>
             <Card.Body>
               <Card.Title>{data.id}. {data.name}</Card.Title>

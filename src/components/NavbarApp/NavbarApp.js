@@ -1,28 +1,33 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import logo from '../images/logo.png';
 import './NavbarApp.css';
 
 const NavbarApp = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="/">
           <img
-            alt=""
             src={logo}
             height="30"
             className="d-inline-block align-top"
-          />{' '}
+            alt=""
+          />
         </Navbar.Brand>
-        <Nav>
-          <Nav.Link><Link className='navlink' to='/characters'>Characters</Link></Nav.Link>
-          <Nav.Link><Link className='navlink' to='/locations'>Locations</Link></Nav.Link>
-          <Nav.Link><Link className='navlink' to='/episodes'>Episodes</Link></Nav.Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="me-auto">
         </Nav>
+        <Nav>
+          <Nav.Link><Link to='/characters' className='navlink'>Characters</Link></Nav.Link>
+          <Nav.Link><Link to='/locations' className='navlink'>Locations</Link></Nav.Link>
+          <Nav.Link><Link to='/episodes' className='navlink'>Episodes</Link></Nav.Link>
+        </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   )

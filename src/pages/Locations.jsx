@@ -13,10 +13,15 @@ function Locations() {
     <div>
       <NavbarApp/>
       <h1 className='title'>LOCATIONS</h1>
-      <h4>{page}</h4>
+      <h4 id='page'>{page}</h4>
+      <div id='navpage'>
+        <button onClick={prev} className='btn btn-dark'>Prev</button>
+        <h4>{page}</h4>
+        <button onClick={next} className='btn btn-dark'>Next</button>
+      </div>
       <div className='body-list-locations'>
         <div>
-          <button onClick={prev} className="btn btn-dark">Prev</button>
+          <button id='bpage' onClick={prev} className="btn btn-dark">Prev</button>
         </div>
         <div>
         {world.map(data=>(
@@ -33,7 +38,7 @@ function Locations() {
         ))}
         </div>
         <div>
-          <button onClick={next} className="btn btn-dark">Next</button>
+          <button id='bpage' onClick={next} className="btn btn-dark">Next</button>
         </div>
       </div>
       <FooterApp/>

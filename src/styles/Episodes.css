@@ -4,3 +4,106 @@
     padding: 0 3%;
     margin-bottom: 2rem;
 }
+.card-chapter{
+    margin-bottom: 2rem;
+}
+
+/*----------RESPONSIVE----------*/
+@media (max-width:1000px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:950px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:900px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:850px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:800px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:750px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:700px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:650px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:600px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:550px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:500px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:450px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:400px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+@media (max-width:350px) {
+    .body-list-chapters{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
